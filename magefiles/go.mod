@@ -1,6 +1,7 @@
 module github.com/corazawaf/coraza-proxy-wasm/magefiles
 
 go 1.22
+toolchain go1.24.1
 
 require (
 	fortio.org/fortio v1.66.0
@@ -20,7 +21,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	golang.org/x/crypto/x509roots/fallback v0.0.0-20240626151235-a6a393ffd658 // indirect
 	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8 // indirect
-	golang.org/x/net v0.26.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 )
